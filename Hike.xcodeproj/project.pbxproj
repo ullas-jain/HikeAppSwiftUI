@@ -16,6 +16,7 @@
 		286FC1782AB02C2300EEE189 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1772AB02C2300EEE189 /* README.md */; };
 		286FC17C2AB02FF600EEE189 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC17B2AB02FF600EEE189 /* CardView.swift */; };
 		286FC17F2AB0308E00EEE189 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC17E2AB0308E00EEE189 /* CustomBackgroundView.swift */; };
+		286FC1812AB0323D00EEE189 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC1802AB0323D00EEE189 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		286FC1772AB02C2300EEE189 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		286FC17B2AB02FF600EEE189 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		286FC17E2AB0308E00EEE189 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		286FC1802AB0323D00EEE189 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				286FC1672AB0291700EEE189 /* Assets.xcassets */,
 				286FC1692AB0291700EEE189 /* Preview Content */,
 				286FC17D2AB0308200EEE189 /* Components */,
+				286FC1822AB0324400EEE189 /* Utility */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -88,6 +91,14 @@
 				286FC17E2AB0308E00EEE189 /* CustomBackgroundView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		286FC1822AB0324400EEE189 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				286FC1802AB0323D00EEE189 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				286FC17C2AB02FF600EEE189 /* CardView.swift in Sources */,
 				286FC1642AB0291600EEE189 /* HikeApp.swift in Sources */,
 				286FC17F2AB0308E00EEE189 /* CustomBackgroundView.swift in Sources */,
+				286FC1812AB0323D00EEE189 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
