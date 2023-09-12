@@ -12,6 +12,9 @@
 		286FC1682AB0291700EEE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1672AB0291700EEE189 /* Assets.xcassets */; };
 		286FC16B2AB0291700EEE189 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286FC16A2AB0291700EEE189 /* Preview Assets.xcassets */; };
 		286FC1722AB02AA800EEE189 /* .git in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1712AB02AA800EEE189 /* .git */; };
+		286FC1752AB02BDF00EEE189 /* app_design.png in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1732AB02BDE00EEE189 /* app_design.png */; };
+		286FC1762AB02BDF00EEE189 /* hike_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1742AB02BDF00EEE189 /* hike_app.png */; };
+		286FC1782AB02C2300EEE189 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1772AB02C2300EEE189 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		286FC1672AB0291700EEE189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286FC16A2AB0291700EEE189 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		286FC1712AB02AA800EEE189 /* .git */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .git; sourceTree = SOURCE_ROOT; };
+		286FC1732AB02BDE00EEE189 /* app_design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_design.png; sourceTree = "<group>"; };
+		286FC1742AB02BDF00EEE189 /* hike_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hike_app.png; sourceTree = "<group>"; };
+		286FC1772AB02C2300EEE189 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,9 @@
 		286FC1572AB0291600EEE189 = {
 			isa = PBXGroup;
 			children = (
+				286FC1732AB02BDE00EEE189 /* app_design.png */,
+				286FC1742AB02BDF00EEE189 /* hike_app.png */,
+				286FC1772AB02C2300EEE189 /* README.md */,
 				286FC1712AB02AA800EEE189 /* .git */,
 				286FC1622AB0291600EEE189 /* Hike */,
 				286FC1612AB0291600EEE189 /* Products */,
@@ -128,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286FC1782AB02C2300EEE189 /* README.md in Resources */,
+				286FC1762AB02BDF00EEE189 /* hike_app.png in Resources */,
 				286FC16B2AB0291700EEE189 /* Preview Assets.xcassets in Resources */,
 				286FC1722AB02AA800EEE189 /* .git in Resources */,
 				286FC1682AB0291700EEE189 /* Assets.xcassets in Resources */,
+				286FC1752AB02BDF00EEE189 /* app_design.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
