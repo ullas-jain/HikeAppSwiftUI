@@ -13,8 +13,8 @@ struct CardView: View {
             Circle()
                 .fill(
                     LinearGradient(colors: [
-                        Color("ColorIndigoMedium"),
-                        Color("ColorSalmonLight"),
+                        Color.customIndigoMedium,
+                        Color.customSalmonLight,
                     ], startPoint: .topLeading, endPoint: .bottomTrailing)
                 )
                 .frame(width: 256, height: 256)
