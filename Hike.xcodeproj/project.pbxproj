@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		282B533B2AB182ED00877F22 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B533A2AB182ED00877F22 /* CustomCircleView.swift */; };
 		282B533D2AB1845F00877F22 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B533C2AB1845F00877F22 /* MotionAnimationView.swift */; };
+		282B53402AB1879400877F22 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B533F2AB1879400877F22 /* SettingsView.swift */; };
 		286FC1642AB0291600EEE189 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC1632AB0291600EEE189 /* HikeApp.swift */; };
 		286FC1662AB0291600EEE189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286FC1652AB0291600EEE189 /* ContentView.swift */; };
 		286FC1682AB0291700EEE189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286FC1672AB0291700EEE189 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		282B533A2AB182ED00877F22 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		282B533C2AB1845F00877F22 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		282B533F2AB1879400877F22 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		286FC1602AB0291600EEE189 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286FC1632AB0291600EEE189 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		286FC1652AB0291600EEE189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282B533E2AB1878100877F22 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				286FC1652AB0291600EEE189 /* ContentView.swift */,
+				282B533F2AB1879400877F22 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		286FC1572AB0291600EEE189 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				286FC1632AB0291600EEE189 /* HikeApp.swift */,
-				286FC1652AB0291600EEE189 /* ContentView.swift */,
+				282B533E2AB1878100877F22 /* Screen */,
 				286FC1672AB0291700EEE189 /* Assets.xcassets */,
 				286FC1692AB0291700EEE189 /* Preview Content */,
 				286FC17D2AB0308200EEE189 /* Components */,
@@ -191,6 +202,7 @@
 				286FC17C2AB02FF600EEE189 /* CardView.swift in Sources */,
 				286FC1642AB0291600EEE189 /* HikeApp.swift in Sources */,
 				286FC1842AB0388E00EEE189 /* CustomButtonView.swift in Sources */,
+				282B53402AB1879400877F22 /* SettingsView.swift in Sources */,
 				286FC1862AB03BDF00EEE189 /* GradientButtonStyle.swift in Sources */,
 				282B533D2AB1845F00877F22 /* MotionAnimationView.swift in Sources */,
 				286FC17F2AB0308E00EEE189 /* CustomBackgroundView.swift in Sources */,
