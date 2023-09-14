@@ -76,7 +76,7 @@ struct SettingsView: View {
 
                 CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
 
-                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "John Doe", rowTintColor: .mint)
+                CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Ullas Jain", rowTintColor: .mint)
 
                 CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Ullas Jain", rowTintColor: .pink)
 
