@@ -72,6 +72,7 @@
 				286FC1772AB02C2300EEE189 /* README.md */,
 				286FC1712AB02AA800EEE189 /* .git */,
 				286FC1622AB0291600EEE189 /* Hike */,
+				286FC1672AB0291700EEE189 /* Assets.xcassets */,
 				286FC1612AB0291600EEE189 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +90,6 @@
 			children = (
 				286FC1632AB0291600EEE189 /* HikeApp.swift */,
 				282B533E2AB1878100877F22 /* Screen */,
-				286FC1672AB0291700EEE189 /* Assets.xcassets */,
 				286FC1692AB0291700EEE189 /* Preview Content */,
 				286FC17D2AB0308200EEE189 /* Components */,
 				286FC1822AB0324400EEE189 /* Utility */,
